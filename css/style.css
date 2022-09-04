@@ -1,14 +1,59 @@
+:root {
+    --prymary-color-text: #212121;
+    --secondary-color-text: #757575;
+    --prymary-white-color: #FFFFFF;
+    --secondary-white-color: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+  }
+
 body{
-    color:#757575;
+    color:var(--secondary-color-text);
 }
-/* основний колір контенту #212121 */
-/* вторинний колір контенту #757575 */
-/* білий колір #FFFFFF */
-/* вторинний білий колір rgba(255, 255, 255, 0.6) */
-/* колір виділення #2196F3 */
+.list{
+    list-style: none;
+}
+.title{
+    color: var(--prymary-color-text);
+}
+/* navbar */
 .logo{
-    color: #212121;
+    color:var(--prymary-color-text);
 }
 .logo > span{
-    color: #2196F3;
+    color: var(--accent-color);
+}
+.nav-list .link,
+.nav-contact .link{
+    color: var(--prymary-color-text);
+}
+.nav-list .link:hover,
+.nav-list .link:focus,
+.nav-contact .link:hover,
+.nav-contact .link:focus{
+    color: var(--accent-color);
+}
+/* Банер */
+.banner-title{
+    color: var(--prymary-white-color);
+}
+.button{
+    color: var(--prymary-white-color);
+    background-color: var(--accent-color);
+}
+/* Наші переваги */
+.advantage-list .list-title{
+    color: var(--prymary-color-text);
+}
+/* Чим ми займаємося */
+
+/* Наша команда */
+.team-list-title{
+    color: var(--prymary-color-text);
+}
+/* footer */
+.address-text{
+    color: var(--prymary-white-color);
+}
+.address-list-item{
+    color: var(--secondary-white-color);
 }
