@@ -1,4 +1,6 @@
 :root {
+    --prymary-bg-color: #F5F5F5;
+    --secondary-bg-color: #2F303A;
     --prymary-color-text: #212121;
     --secondary-color-text: #757575;
     --prymary-white-color: #FFFFFF;
@@ -7,17 +9,29 @@
   }
 
 body{
+    background-color: var(--prymary-bg-color);
     color:var(--secondary-color-text);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 .list{
     list-style: none;
 }
-.title{
+.section-title{
     color: var(--prymary-color-text);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
 }
 /* navbar */
 .logo{
     color:var(--prymary-color-text);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.17;
+    line-height: 1.19;
+    text-decoration: none;
 }
 .logo > span{
     color: var(--accent-color);
@@ -25,6 +39,10 @@ body{
 .nav-list .link,
 .nav-contact .link{
     color: var(--prymary-color-text);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 .nav-list .link:hover,
 .nav-list .link:focus,
@@ -35,25 +53,72 @@ body{
 /* Банер */
 .banner-title{
     color: var(--prymary-white-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .button{
     color: var(--prymary-white-color);
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 /* Наші переваги */
 .advantage-list .list-title{
     color: var(--prymary-color-text);
+}
+.advantage-list .list-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.advantage-list .list-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 /* Чим ми займаємося */
 
 /* Наша команда */
 .team-list-title{
     color: var(--prymary-color-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.team-list-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 /* footer */
+footer{
+    background-color: var(--secondary-bg-color);
+}
+footer .logo{
+    color: var(--prymary-white-color);
+}
 .address-text{
     color: var(--prymary-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .address-list-item{
     color: var(--secondary-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
 }
