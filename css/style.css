@@ -6,6 +6,7 @@
     --prymary-white-color: #FFFFFF;
     --secondary-white-color: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3;
+    --button-color:#F5F4FA;
   }
 
 body{
@@ -29,7 +30,7 @@ body{
     color:var(--prymary-color-text);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 1.17;
+    font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
 }
@@ -121,4 +122,15 @@ footer .logo{
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+}
+/* -------------portfolio------------------- */
+/* filter */
+.filter-button{
+    color: var(--prymary-color-text);
+    background-color: var(--button-color);
+}
+.filter-button:hover,
+.filter-button:focus{
+    color: var(--prymary-white-color);
+    background-color: var(--accent-color);
 }
