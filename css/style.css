@@ -18,6 +18,7 @@ body{
 .list{
     list-style: none;
 }
+
 .section-title{
     color: var(--prymary-color-text);
     font-weight: 700;
@@ -44,6 +45,9 @@ body{
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+}
+.nav-list .link.current{
+    color: var(--accent-color);
 }
 .nav-list .link:hover,
 .nav-list .link:focus,
@@ -133,4 +137,19 @@ footer .logo{
 .filter-button:focus{
     color: var(--prymary-white-color);
     background-color: var(--accent-color);
+}
+.examples-list-title{
+    color: var(--prymary-color-text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+.examples-list-text{
+    color: var(--secondary-color-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    text-decoration: none;
 }
