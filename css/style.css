@@ -13,6 +13,7 @@ body{
     background-color: var(--prymary-bg-color);
     color:var(--secondary-color-text);
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     letter-spacing: 0.03em;
 }
 .list{
@@ -23,7 +24,7 @@ body{
     color: var(--prymary-color-text);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
 }
 /* navbar */
@@ -40,9 +41,9 @@ body{
 }
 .nav-list .link,
 .nav-contact .link{
-    color: var(--prymary-color-text);
+    color: var(--secondary-color-text);
     font-weight: 500;
-    font-size: 14px;
+    font-size: inherit;
     line-height: 1.14;
     text-decoration: none;
 }
@@ -82,13 +83,11 @@ body{
 }
 .advantage-list .list-title{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 .advantage-list .list-text{
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
 }
 /* Чим ми займаємося */
@@ -117,26 +116,31 @@ footer .logo{
 .address-text{
     color: var(--prymary-white-color);
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
 }
 .address-list-item{
     color: var(--secondary-white-color);
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+    font-style: normal;
 }
 /* -------------portfolio------------------- */
 /* filter */
 .filter-button{
     color: var(--prymary-color-text);
     background-color: var(--button-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 .filter-button:hover,
 .filter-button:focus{
     color: var(--prymary-white-color);
     background-color: var(--accent-color);
+}
+.examples-list-link{
+    text-decoration: none;
 }
 .examples-list-title{
     color: var(--prymary-color-text);
@@ -144,12 +148,12 @@ footer .logo{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    text-decoration: none;
+    
 }
 .examples-list-text{
     color: var(--secondary-color-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
-    text-decoration: none;
+    
 }
