@@ -80,6 +80,7 @@ body{
 /* Наші переваги */
 .advantage-list .list-title{
     color: var(--prymary-color-text);
+    font-size: 14px;
 }
 .advantage-list .list-title{
     font-weight: 700;
@@ -117,6 +118,7 @@ footer .logo{
     color: var(--prymary-white-color);
     font-weight: 400;
     line-height: 1.71;
+    font-style: normal;
 }
 .address-list-item{
     color: var(--secondary-white-color);
@@ -130,6 +132,7 @@ footer .logo{
 .filter-button{
     color: var(--prymary-color-text);
     background-color: var(--button-color);
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
